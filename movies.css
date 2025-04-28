@@ -1,0 +1,118 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+  }
+  .logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ffc107;
+    text-decoration: none;
+  }
+  /* nav */
+.nava a{
+  margin-left: 8vw;
+  text-decoration: none;
+  color: white;
+}
+  /*  */
+  .hero {
+    background: url(assest/Frontpage.jpeg) no-repeat center center fixed;
+    background-size: cover;
+    padding: 80px 20px;
+    text-align: center;
+  }
+  .hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  .hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  .hero .btn-primary {
+    background-color: #ffc107;
+    border: none;
+    color: #000;body {
+        background-color: #121212;
+        color: #ffffff;
+      }
+      
+      .navbar {
+        background-color: #1c1c1c;
+      }
+      
+      .nav-link {
+        color: #ffffff;
+      }
+      
+      .nav-link:hover {
+        color: #ff5722;
+      }
+      
+      .hero {
+        background-image: url('images/hero-background.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        color: #ffffff;
+        text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+      }
+      
+      .hero .btn-primary {
+        background-color: #ff5722;
+        border: none;
+      }
+      
+      .card {
+        background-color: #1e1e1e;
+        border: none;
+        transition: transform 0.3s ease;
+      }
+      
+      .card:hover {
+        transform: scale(1.05);
+        cursor: pointer;
+      }
+      
+      .card-title {
+        color: #ffffff;
+      }
+      
+      footer {
+        background-color: #1c1c1c;
+      }
+      
+  }
+  .section-title {
+    margin: 40px 0 20px;
+    font-size: 28px;
+  }
+
+  .card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #e5e5e5;
+  }
+  
+  .card:hover {
+    transform: scale(1.056); 
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+  }
+  
+  .card-img-top {
+    transition: transform 0.3s;
+  }
+  
+  .card:hover .card-img-top {
+    transform: scale(1.1);
+  }
+  
+  .card-text {
+    transition: color 0.3s;
+  }
+  
+  .card:hover .card-text {
+    color: #000000;
+  }

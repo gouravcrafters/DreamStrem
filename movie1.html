@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies</title>
+    <link rel="stylesheet" href="movies.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #121212;
+        }
+        .navbar-brand {
+            font-weight: 700;
+            color: #ffc107;
+        }
+        .navbar-nav .nav-link {
+            color: white !important;
+        }
+        .carousel-inner img {
+            object-fit: cover;
+            height: 500px;
+        }
+        .container h2 {
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">DreamStream</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="movies.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tv.html">TV Shows</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="movie1.html">Movies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="anime.html">Anime</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="singup/singin.html">Sign In</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carousel Section -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <!-- Indicators -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+      </div>
+    
+      <!-- Images -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://i.ytimg.com/vi/shW9i6k8cB0/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDKzb-LWLyPYNIsVO5pgb_7Dx3fZQ" class="d-block w-100" alt="First Slide">
+        </div>
+        <div class="carousel-item">
+          <img src="https://i.ytimg.com/vi/NyonzDSFqUI/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAjSo7UrcBeuVxIZMYfU5xlRiXkJg" style="background-size: cover;" class="d-block w-100" alt="Second Slide">
+        </div>
+        <div class="carousel-item">
+          <img src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/6813/1744696966813-i" class="d-block w-100" alt="Third Slide">
+        </div>
+      </div>
+    
+      <!-- Controls -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+    
+  <!-- Action movies -->
+  <section class="py-5 bg-dark text-light">
+    <div class="container">
+      <h2 class="mb-4">Action Movies</h2>
+      <div class="row g-4">
+        <div class="col-md-3">
+          <div class="card h-100">
+            <img src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/2015/1734949412015-i" class="card-img-top" alt="Anime 1">
+            <div class="card-body">
+              <h5 class="card-title">Spider-Man</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card h-100">
+            <img src="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/4603/1722103004603-t" class="card-img-top" alt="Anime 2">
+            <div class="card-body">
+              <h5 class="card-title">Avesham</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card h-100">
+            <img src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/5663/1734952255663-i" class="card-img-top" alt="Anime 3">
+            <div class="card-body">
+              <h5 class="card-title">SpiderMan : Homecoming</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card h-100">
+            <img src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/1705/1744026211705-i" class="card-img-top" alt="Anime 4">
+            <div class="card-body">
+              <h5 class="card-title">Marco</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card h-100">
+            <img src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/1705/1744026211705-i" class="card-img-top" alt="Anime 4">
+            <div class="card-body">
+              <h5 class="card-title">Marco</h5>
+            </div>
+          </div>
+        </div>
+           <!--  -->
+           <div class="col-md-3">
+            <div class="card h-100">
+              <img src="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/6510/1725561496510-t" class="card-img-top" alt="Anime 4">
+              <div class="card-body">
+                <h5 class="card-title">Kil</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card h-100">
+              <img src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/2157/1372157-i-825e28f96001" class="card-img-top" alt="Anime 4">
+              <div class="card-body">
+                <h5 class="card-title">Singham Returns</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card h-100">
+              <img src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/110/1722090500110-i" class="card-img-top" alt="Anime 4">
+              <div class="card-body">
+                <h5 class="card-title">Creak</h5>
+              </div>
+            </div>
+          </div>
+          
+      </div>
+    </div>
+  </section>
+
+  <!-- marvel -->
+  <section class="py-5 bg-dark text-light">
+    <div class="container">
+      <h2 class="mb-4">Marvel Movies</h2>
+      <div class="row g-4">
+        <div class="col-md-3">
+          <div class="card h-100">
+            <img src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/7497/1731416817497-i" class="card-img-top" alt="Anime 1">
+            <div class="card-body">
+              <h5 class="card-title">DeadPool & Wolverine</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card h-100">
+            <img src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/9827/1369827-i-af553ef8b614" class="card-img-top" alt="Anime 2">
+            <div class="card-body">
+              <h5 class="card-title">Iron Man</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card h-100">
+            <img src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/9296/1369296-i-9c4de25be85b" class="card-img-top" alt="Anime 3">
+            <div class="card-body">
+              <h5 class="card-title">Shang-Chi</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card h-100">
+            <img src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/4908/1374908-i-7da93f401ac7" class="card-img-top" alt="Anime 4">
+            <div class="card-body">
+              <h5 class="card-title">Avenger's : Infinty War</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card h-100">
+            <img src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/6773/1366773-i-18687272b330" class="card-img-top" alt="Anime 4">
+            <div class="card-body">
+              <h5 class="card-title">Dr.Strange Multiverse of Madness</h5>
+            </div>
+          </div>
+        </div> <div class="col-md-3">
+          <div class="card h-100">
+            <img src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/5285/1365285-i-fe1d56ee6b43" class="card-img-top" alt="Anime 4">
+            <div class="card-body">
+              <h5 class="card-title">Thor : Love & Thander</h5>
+            </div>
+          </div>
+        </div> <div class="col-md-3">
+          <div class="card h-100">
+            <img src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/3981/1463981-i-76197ed0f4b9" class="card-img-top" alt="Anime 4">
+            <div class="card-body">
+              <h5 class="card-title">Black Phanter : Wakanda Forever </h5>
+            </div>
+          </div>
+        </div> <div class="col-md-3">
+          <div class="card h-100">
+            <img src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/7013/1657013-i-0433f19bb907" class="card-img-top" alt="Anime 4">
+            <div class="card-body">
+              <h5 class="card-title">The Marvels</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- marvel -->
+  <section class="py-5 bg-dark text-light">
+    <div class="container">
+      <h2 class="mb-4">Marvel Movies</h2>
+      <div class="row g-4">
+        <div class="col-md-3">
+          <div class="card h-100">
+            <img src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/7497/1731416817497-i" class="card-img-top" alt="Anime 1">
+            <div class="card-body">
+              <h5 class="card-title">DeadPool & Wolverine</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card h-100">
+            <img src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/9827/1369827-i-af553ef8b614" class="card-img-top" alt="Anime 2">
+            <div class="card-body">
+              <h5 class="card-title">Iron Man</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card h-100">
+            <img src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/9296/1369296-i-9c4de25be85b" class="card-img-top" alt="Anime 3">
+            <div class="card-body">
+              <h5 class="card-title">Shang-Chi</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card h-100">
+            <img src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/4908/1374908-i-7da93f401ac7" class="card-img-top" alt="Anime 4">
+            <div class="card-body">
+              <h5 class="card-title">Avenger's : Infinty War</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card h-100">
+            <img src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/6773/1366773-i-18687272b330" class="card-img-top" alt="Anime 4">
+            <div class="card-body">
+              <h5 class="card-title">Dr.Strange Multiverse of Madness</h5>
+            </div>
+          </div>
+        </div> <div class="col-md-3">
+          <div class="card h-100">
+            <img src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/5285/1365285-i-fe1d56ee6b43" class="card-img-top" alt="Anime 4">
+            <div class="card-body">
+              <h5 class="card-title">Thor : Love & Thander</h5>
+            </div>
+          </div>
+        </div> <div class="col-md-3">
+          <div class="card h-100">
+            <img src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/3981/1463981-i-76197ed0f4b9" class="card-img-top" alt="Anime 4">
+            <div class="card-body">
+              <h5 class="card-title">Black Phanter : Wakanda Forever </h5>
+            </div>
+          </div>
+        </div> <div class="col-md-3">
+          <div class="card h-100">
+            <img src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/7013/1657013-i-0433f19bb907" class="card-img-top" alt="Anime 4">
+            <div class="card-body">
+              <h5 class="card-title">The Marvels</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- marvel -->
+  <section class="py-5 bg-dark text-light">
+    <div class="container">
+      <h2 class="mb-4">Marvel Movies</h2>
+      <div class="row g-4">
+        <div class="col-md-3">
+          <div class="card h-100">
+            <img src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/7497/1731416817497-i" class="card-img-top" alt="Anime 1">
+            <div class="card-body">
+              <h5 class="card-title">DeadPool & Wolverine</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card h-100">
+            <img src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/9827/1369827-i-af553ef8b614" class="card-img-top" alt="Anime 2">
+            <div class="card-body">
+              <h5 class="card-title">Iron Man</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card h-100">
+            <img src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/9296/1369296-i-9c4de25be85b" class="card-img-top" alt="Anime 3">
+            <div class="card-body">
+              <h5 class="card-title">Shang-Chi</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card h-100">
+            <img src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/4908/1374908-i-7da93f401ac7" class="card-img-top" alt="Anime 4">
+            <div class="card-body">
+              <h5 class="card-title">Avenger's : Infinty War</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card h-100">
+            <img src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/6773/1366773-i-18687272b330" class="card-img-top" alt="Anime 4">
+            <div class="card-body">
+              <h5 class="card-title">Dr.Strange Multiverse of Madness</h5>
+            </div>
+          </div>
+        </div> <div class="col-md-3">
+          <div class="card h-100">
+            <img src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/5285/1365285-i-fe1d56ee6b43" class="card-img-top" alt="Anime 4">
+            <div class="card-body">
+              <h5 class="card-title">Thor : Love & Thander</h5>
+            </div>
+          </div>
+        </div> <div class="col-md-3">
+          <div class="card h-100">
+            <img src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/3981/1463981-i-76197ed0f4b9" class="card-img-top" alt="Anime 4">
+            <div class="card-body">
+              <h5 class="card-title">Black Phanter : Wakanda Forever </h5>
+            </div>
+          </div>
+        </div> <div class="col-md-3">
+          <div class="card h-100">
+            <img src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/7013/1657013-i-0433f19bb907" class="card-img-top" alt="Anime 4">
+            <div class="card-body">
+              <h5 class="card-title">The Marvels</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Footer -->
+  <footer class="text-center py-4 bg-dark text-light">
+    © 2025 DreamStream | All Rights Reserved
+  </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
